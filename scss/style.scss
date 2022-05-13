@@ -1,0 +1,48 @@
+/* nesting o anidamiento */
+
+@import '../scss/components/header';
+@import '../scss/base/listas';
+@import '../scss/base/mapas';
+
+
+body {
+	overflow-x: hidden;
+} 
+
+.fondo {
+	display: block;
+	background-color: rgb(137, 241, 142);
+}
+
+.imag{
+	position: relative;
+	top: 10px;
+	left: 0;
+}
+
+.frente{
+	text-align: center;
+}
+
+.lista{
+	text-align: center;
+	border: outset 3px black;
+}
+
+
+.footer-content{
+	border: solid 3px black;
+	color: blue;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.p2{
+	text-align: right;
+	margin: 4px;
+}
+
+.iconos{
+	text-align: right;
+	line-height: 25px;
+}

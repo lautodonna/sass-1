@@ -1,0 +1,33 @@
+@import '../base/variables';
+@import '../base/listas';
+@import '../base/mapas';
+
+
+header {
+    background-color: black;
+
+    /* media query */
+    @media screen and (max-width:450px) {
+        background-color: orange;
+    }
+}
+
+nav {
+	ul {
+		li {
+			display: inline-block;
+			width: 20%;
+			position: relative;
+			font-size: 150%;
+			ul {
+				position: relative;
+				display: none;
+				li {
+					display: block;
+					width: 150px;
+					padding: 10px;
+				}
+			}
+		}
+	}
+}

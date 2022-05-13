@@ -1,0 +1,74 @@
+/* nesting o anidamiento */
+/* variables */
+/* listas */
+/* mapas */
+header {
+  background-color: black;
+  /* media query */
+}
+@media screen and (max-width: 450px) {
+  header {
+    background-color: orange;
+  }
+}
+
+nav ul li {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  font-size: 150%;
+}
+nav ul li ul {
+  position: relative;
+  display: none;
+}
+nav ul li ul li {
+  display: block;
+  width: 150px;
+  padding: 10px;
+}
+
+/* listas */
+/* mapas */
+body {
+  overflow-x: hidden;
+}
+
+.fondo {
+  display: block;
+  background-color: rgb(137, 241, 142);
+}
+
+.imag {
+  position: relative;
+  top: 10px;
+  left: 0;
+}
+
+.frente {
+  text-align: center;
+}
+
+.lista {
+  text-align: center;
+  border: outset 3px black;
+}
+
+.footer-content {
+  border: solid 3px black;
+  color: blue;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.p2 {
+  text-align: right;
+  margin: 4px;
+}
+
+.iconos {
+  text-align: right;
+  line-height: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
